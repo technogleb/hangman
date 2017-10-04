@@ -1,6 +1,6 @@
 
 # coding: utf-8
-
+#!/usr/bin/env python
 # In[ ]:
 
 
@@ -17,7 +17,7 @@ setup(
     license="MIT",
     packages=[
         "hangman",
-        "tests"
+		"tests"
     ],
     install_requires=[
     ],
@@ -43,6 +43,6 @@ setup(
     entry_points={
         'console_scripts': [
             'hangman = hangman.__main__:main'
-    ]
+		]
     }
 )
