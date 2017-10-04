@@ -15,7 +15,7 @@ setup(
     license="MIT",
     packages=[
         "hangman",
-		"tests"
+        "tests"
     ],
     install_requires=[
     ],
@@ -41,6 +41,6 @@ setup(
     entry_points={
         'console_scripts': [
             'hangman = hangman.__main__:main'
-		]
+        ]
     }
 )
