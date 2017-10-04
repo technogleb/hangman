@@ -43,4 +43,5 @@ setup(
         'console_scripts': [
             'hangman = hangman.__main__:main'
     ]
+    }
 )
