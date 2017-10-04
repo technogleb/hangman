@@ -8,4 +8,4 @@ script:
 after_success:
         - codecov
 before_install:
-	- chmod +x setup.py
+        - chmod +x setup.py
