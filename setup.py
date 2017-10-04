@@ -17,6 +17,7 @@ setup(
     license="MIT",
     packages=[
         "hangman",
+        "tests"
     ],
     install_requires=[
     ],
